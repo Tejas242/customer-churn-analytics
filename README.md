@@ -4,11 +4,12 @@ An enterprise-grade analytics platform that empowers businesses to understand, p
 
 ## 📊 Dashboard Preview
 
-![Dashboard](static/dashboard.png)
+![Dashboard](static/images/dashboard.png)
 
 ## ✨ Core Features
 
 ### Analytics & Insights
+
 - **Customer 360° View** - Comprehensive customer behavior analysis
 - **Real-time KPIs** - Monitor critical metrics:
   - Churn Rate Trends
@@ -18,6 +19,7 @@ An enterprise-grade analytics platform that empowers businesses to understand, p
 - **Interactive Visualizations** - Dynamic charts and graphs powered by Plotly
 
 ### 🤖 Predictive Analytics
+
 - **ML-Powered Churn Prediction**
   - Random Forest classifier with optimized parameters
   - Feature importance analysis
@@ -28,6 +30,7 @@ An enterprise-grade analytics platform that empowers businesses to understand, p
   - Early warning indicators
 
 ### 🎯 Customer Segmentation
+
 - **Advanced Clustering**
   - K-means segmentation
   - 3D visualization of segments
@@ -38,6 +41,7 @@ An enterprise-grade analytics platform that empowers businesses to understand, p
   - Revenue contribution
 
 ### 💡 Smart Recommendations
+
 - **Personalized Actions**
   - Customer-specific retention strategies
   - Service upgrade suggestions
@@ -50,6 +54,7 @@ An enterprise-grade analytics platform that empowers businesses to understand, p
 ## 🛠️ Technical Architecture
 
 ### Technology Stack
+
 - **Frontend**: Streamlit
 - **Analytics**:
   - Pandas & NumPy for data processing
@@ -59,6 +64,7 @@ An enterprise-grade analytics platform that empowers businesses to understand, p
 - **Logging**: Python's logging module
 
 ### Project Structure
+
 ```
 test/
 ├── src/
@@ -85,29 +91,34 @@ test/
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Python 3.8+
 - pip package manager
 
 ### Installation
 
 1. Clone the repository
+
 ```bash
 git clone [repository-url]
 cd customer-churn-analytics
 ```
 
 2. Set up virtual environment
+
 ```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 
 3. Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
 4. Launch the application
+
 ```bash
 streamlit run app.py
 ```
@@ -115,21 +126,25 @@ streamlit run app.py
 ## 💻 Usage Guide
 
 ### 1. Overview Dashboard
+
 - View high-level KPIs and trends
 - Filter data by various parameters
 - Export summary reports
 
 ### 2. Detailed Analysis
+
 - Deep dive into customer behaviors
 - Analyze service usage patterns
 - Investigate churn factors
 
 ### 3. Prediction System
+
 - Get individual customer predictions
 - Understand risk factors
 - Generate recommendations
 
 ### 4. Customer Segmentation
+
 - Explore customer segments
 - Analyze segment characteristics
 - Track segment evolution
