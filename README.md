@@ -6,6 +6,16 @@ An enterprise-grade analytics platform that empowers businesses to understand, p
 
 ![Dashboard](static/images/dashboard.png)
 
+## Dataset
+
+This project uses the IBM Telco Customer Churn dataset, which includes:
+- 7043 customers
+- 21 features
+- Real telecom service usage
+- Actual churn behavior
+
+Source: [IBM Sample Data Sets](https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv)
+
 ## ✨ Core Features
 
 ### Analytics & Insights

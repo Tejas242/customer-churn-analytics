@@ -1,5 +1,5 @@
 data:
-  filename: "customer_churn.csv"
+  filename: "WA_Fn-UseC_-Telco-Customer-Churn.csv"
   categorical_columns:
     - ContractType
     - InternetService
